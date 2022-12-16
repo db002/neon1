@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/slyle.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"></a>
+        <nav id="nav" class="nav">
+            <ul class="list">
+                <li class="item"><a class="link" href="store.html">Магазин</a></li>
+                <li class="item"><a class="link" href="payment.html">Оплата и доставка</a></li>
+                <li class="item"><a class="link" href="contacts.html">Контакты</a></li>
+                <li class="item"><a class="link link_b" href="payment.html">Заказать неон</a></li>
+            </ul>
+            <button id="menu" class="menu">
+                <img id="menuimg" src="images/menu.png" alt="">
+            </button>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="conteiner">
+            <section class="promo">
+                <div class="content">
+                    <h1 class="promo_h">Неоновые вывески и надписи от 3900 р.</h1>
+                    <p class="text">Работаем с 4 типами неона: тонкий / гибкий / стекло / стекло HQ</p>
+                    <div class="btn">
+                        <a href="#form1" class="button">ЗАКАЗАТЬ</a>
+                    </div>
+                </div>
+
+                <!--<div class="promo_img">
+                    <img src="./images/back.jpg" alt="back image">
+                </div>-->
+            </section>
+            <section>
+                <h2 class="title">Неоновая коллекция</h2>
+                <div class="card">
+                    <article>
+                        <img src="images/1.png" alt="">
+                        <div class="card_text">
+                            <p>Шляп</p>
+                            <div class="span">
+                                <span>4500 руб.</span>
+                                <a href="store.html" class="card_button">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/1.png" alt="">
+                        <div class="card_text">
+                            <p>Бук</p>
+                            <div class="span"><span>2500 руб.</span>
+                                <a href="store.html" class="card_button">КУПИТЬ</a>
+                            </div>
+
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/1.png" alt="">
+                        <div class="card_text">
+                            <p>Микс</p>
+                            <div class="span"><span>3500 руб.</span>
+                                <a href="store.html" class="card_button">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/1.png" alt="">
+                        <div class="card_text">
+                            <p>Бол</p>
+                            <div class="span">
+                                <span>4200 руб.</span>
+                                <a href="store.html" class="card_button">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/1.png" alt="">
+                        <div class="card_text">
+                            <p>Бол</p>
+                            <div class="span">
+                                <span>4200 руб.</span>
+                                <a href="store.html" class="card_button">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/1.png" alt="">
+                        <div class="card_text">
+                            <p>Бол</p>
+                            <div class="span">
+                                <span>4200 руб.</span>
+                                <a href="store.html" class="card_button">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section>
+                <h2 class="title">Свой дизайн?</h2>
+                <div class="contacts">
+                    <form class="contacts-form" action="" method="post" id="form1">
+                        <h1>Создайте свой дизайн</h1>
+                        <span>Отправьте запрос по форме ниже, наш специалист свяжется с вами.</span>
+                        <div class="form">
+                            <div class="form_title">
+                                <label for="fullname">Ваше имя</label>
+                            </div>
+                            <div class="field">
+                                <input type="text" id="fullname" placeholder="Иван Иванов">
+                            </div>
+                            <div class="form_title">
+                                <label for="phone">Ваш телефон</label>
+                            </div>
+                            <div class="field">
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                                    placeholder="8-917-458-48-58">
+                            </div>
+                            <input type="submit" class="form_button" value="Отправить">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <script src="main.js"></script>
+    </main>
+    <footer>
+        <div class="footer-parts">
+            <article>
+                <p>Адрес:</p>
+                <span>г. Моск, ул. , д. 17</span>
+                <p>Режим работы:</p>
+                <span>Ежедневно с 9:00 до 21:00</span>
+            </article>
+            <article>
+                <p>Наши контакты:</p>
+                <a href="tel:+7(495)0006061">+7 (495) 000-60-61</a>
+            </article>
+            <article>
+                <p>Мы в социальных сетях:</p>
+                <a href="https://vk.com/feed"><img src="images/vk.png" alt="logo_vk"></a>
+                <a href="https://www.facebook.com/"><img src="images/f.png" alt="logo_fb"></a>
+                <a href="https://ru.pinterest.com/"><img src="images/p.png" alt="logo_pinterest"></a>
+            </article>
+            <article>
+                <p>Навигация:</p>
+                <a href="store.html" class="menu-link">Магазин</a><br>
+                <a href="payment.html" class="menu-link">Оплата и доставка</a><br>
+                <a href="contacts.html" class="menu-link">Контакты</a><br>
+            </article>
+        </div>
+        <div class="footer-last">
+            <p>NEON | © 2022. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

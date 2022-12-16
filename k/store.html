@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/store.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"></a>
+        <nav id="nav" class="nav">
+            <ul class="list">
+                <li class="item"><a class="link" href="store.html">Магазин</a></li>
+                <li class="item"><a class="link" href="payment.html">Оплата и доставка</a></li>
+                <li class="item"><a class="link" href="contacts.html">Контакты</a></li>
+                <li class="item"><a class="link link_b" href="payment.html">Заказать неон</a></li>
+            </ul>
+            <button id="menu" class="menu">
+                <img id="menuimg" src="images/menu.png" alt="">
+            </button>
+        </nav>
+
+    </header>
+    <main id="main">
+        <h2 class="title">Неоновая коллекция</h2>
+        <div class="card">
+            <article>
+                <img src="images/1.png" alt="">
+                <div class="card_text">
+                    <p>Шляпная коробка с цветами "Неженка"</p>
+                    <div class="span">
+                        <span>4500 руб.</span>
+                        <a href="#window" class="button">КУПИТЬ</a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img src="images/1.png" alt="Букет микс ">
+                <div class="card_text">
+                    <p>Букет микс "Виолетта"</p>
+                    <div class="span"><span>2500 руб.</span>
+                        <a href="#window" class="button">КУПИТЬ</a>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <img src="images/1.png" alt="Микс в шляпной коробке Милан ">
+                <div class="card_text">
+                    <p>Микс в шляпной коробке Милан</p>
+                    <div class="span"><span>3500 руб.</span>
+                        <a href="#window" class="button">КУПИТЬ</a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img src="images/1.png" alt="Большой букет цветов микс ">
+                <div class="card_text">
+                    <p>Большой букет цветов микс "Восторг"</p>
+                    <div class="span">
+                        <span>4200 руб.</span>
+                        <a href="#window" class="button">КУПИТЬ</a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img src="images/1.png" alt="Большой букет цветов микс ">
+                <div class="card_text">
+                    <p>Большой букет цветов микс "Восторг"</p>
+                    <div class="span">
+                        <span>4200 руб.</span>
+                        <a href="#window" class="button">КУПИТЬ</a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img src="images/1.png" alt="Большой букет цветов микс ">
+                <div class="card_text">
+                    <p>Большой букет цветов микс "Восторг"</p>
+                    <div class="span">
+                        <span>4200 руб.</span>
+                        <a href="#window" class="button">КУПИТЬ</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="contacts" id="window">
+            <a href="#main" class="window_area"></a>
+            <form class="contacts-form" action="" method="post">
+                <a href="#main" class="window_close">X</a>
+                <h1>Оформить заказ</h1>
+                <span>Отправьте запрос по форме ниже, наш специалист свяжется с вами.</span>
+                <div class="form">
+                    <div class="form_title">
+                        <label for="fullname">Ваше имя</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="fullname" placeholder="Иван Иванов">
+                    </div>
+                    <div class="form_title">
+                        <label for="phone">Ваш телефон</label>
+                    </div>
+                    <div class="field">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                            placeholder="8-917-458-48-58">
+                    </div>
+                    <input type="submit" class="button" value="Отправить">
+                </div>
+            </form>
+        </div>
+        <script src="main.js"></script>
+    </main>
+    <footer>
+        <div class="footer-parts">
+            <article>
+                <p>Адрес:</p>
+                <span>г. Моск, ул. , д. 17</span>
+                <p>Режим работы:</p>
+                <span>Ежедневно с 9:00 до 21:00</span>
+            </article>
+            <article>
+                <p>Наши контакты:</p>
+                <a href="tel:+7(495)0006061">+7 (495) 000-60-61</a>
+            </article>
+            <article>
+                <p>Мы в социальных сетях:</p>
+                <a href="https://vk.com/feed"><img src="images/vk.png" alt="logo_vk"></a>
+                <a href="https://www.facebook.com/"><img src="images/f.png" alt="logo_fb"></a>
+                <a href="https://ru.pinterest.com/"><img src="images/p.png" alt="logo_pinterest"></a>
+            </article>
+            <article>
+                <p>Навигация:</p>
+                <a href="menu.html" class="menu-link">Каталог</a><br>
+                <a href="Shipping_payment.html" class="menu-link">Доставка и оплата</a><br>
+                <a href="contacts.html" class="menu-link">Контакты</a><br>
+            </article>
+        </div>
+        <div class="footer-last">
+            <p>NEON | © 2022. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
